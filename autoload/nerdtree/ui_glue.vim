@@ -581,7 +581,7 @@ endfunction
 
 "FUNCTION: s:previewNodeCurrent(node) {{{1
 function! s:previewNodeCurrent(node) abort
-    call a:node.open({'stay': 1, 'where': 'p', 'keepopen': 1})
+    call a:node.open({'stay': 0, 'where': 'p', 'keepopen': 1})
 endfunction
 
 "FUNCTION: s:previewNodeHSplit(node) {{{1
